@@ -5,7 +5,7 @@ import PostsLayout from "@layouts/Posts/PostsLayout";
 import Loading from "@components/common/Loading";
 import { useCallback, useEffect, useState } from "react";
 import { handleAsyncOperation } from "@utils/handle-async-operation";
-import { ROUTES } from "src/router";
+import { ROUTES } from "../router";
 
 const PostDetails: React.FC = () => {
   const [post, setPost] = useState<IPost>();
